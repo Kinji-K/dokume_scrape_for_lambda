@@ -22,5 +22,6 @@ def lambda_handler(event, context):
         "headers": {
             "Content-Type": "application/json"
         },
-        "body": json.dumps(booklist,ensure_ascii=False)
+        "body": "Hello",
+        "isBase64Encoded": False
     }
